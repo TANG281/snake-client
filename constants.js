@@ -19,5 +19,3 @@ module.exports = {
   initial,
   pretyped
 };
-
-// console.log(pretyped['w']);
