@@ -1,4 +1,4 @@
-const { pretyped } = require('./constants')
+const { pretyped } = require('./constants');
 
 let connection;
 
@@ -7,8 +7,8 @@ const handleUserInput = (input) => {
     process.exit();
   }
 
-  if(pretyped[input]) {
-    connection.write(pretyped[input])
+  if (pretyped[input]) {
+    connection.write(pretyped[input]);
   }
 };
 
@@ -25,4 +25,4 @@ const setupInput = (conn) => {
   return stdin;
 };
 
-module.exports = { setupInput};
+module.exports = { setupInput };
