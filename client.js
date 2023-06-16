@@ -14,11 +14,6 @@ const connect = () => {
   conn.on('connect', () => { // 'connect' event = after connection sucessfull
     console.log('Sucessfully connected to game server'); // Print out message once connection is established
     conn.write(initial); // Set client's name on the server
-    // setTimeout(() => conn.write('Move: up'), 1000);
-    // setTimeout(() => conn.write('Move: right'), 2000);
-    // setTimeout(() => conn.write('Move: up'), 3000);
-    // setTimeout(() => conn.write('Move: left'), 4000);
-    // setInterval(() => conn.write('Move: up'), 50);
   });
 
 
